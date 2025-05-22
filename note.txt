@@ -1,0 +1,6 @@
+实验报告中，实验分析部分只展示了0.ply->1.ply的结果，如需验证其他点云组合，请修改以下代码：
+
+src = o3d.io.read_point_cloud("./ply_files/0.ply")
+dst = o3d.io.read_point_cloud("./ply_files/1.ply")
+
+(Line 105-106)
